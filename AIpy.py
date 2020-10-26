@@ -3,8 +3,10 @@ import time
 import playsound
 import speech_recognition as sr
 import os
+import webbrowser
 
-
+webbrowser.open('https://www.google.com/search?q=your+search+here
+', new=2)
 
 def getcm():
     r= sr.Recognizer()
